@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    bundle: '.src/index.ts',
+    bundle: './src/index.ts',
   },
 
   output: {
@@ -11,7 +11,7 @@ module.exports = {
   },
 
   resolve: {
-    extension: ['.js', '.ts'],
+    extensions: ['.js', '.ts'],
   },
 
   devServer: {
